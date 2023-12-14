@@ -3,10 +3,9 @@
 name: CD GitHub workflow
 
 on:
-  push:
-    branches: [ "main" ]
- # Allows you to run this workflow manually from the Actions tab 
-  workflow_dispatch:
+  workflow_run:
+    workflows: [ "CI GitHub workflow" ]
+    types: [completed]
 
 
 jobs:
