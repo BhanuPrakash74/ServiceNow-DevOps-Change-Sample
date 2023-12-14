@@ -4,9 +4,9 @@ name: CI GitHub workflow
 
 on:
   push:
-    branches: [ "Feature-*" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "Feature-*" ]
+    branches: [ "main" ]
  # Allows you to run this workflow manually from the Actions tab
   workflow_call:
 
