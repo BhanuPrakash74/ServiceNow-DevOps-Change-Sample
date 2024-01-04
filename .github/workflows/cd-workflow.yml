@@ -9,7 +9,7 @@ on:
 
 jobs:
   registerPackage:
-    name: 'Register Package'
+    name: 'Register Package' 
     needs: securityScan
     runs-on: ubuntu-latest
     steps:
